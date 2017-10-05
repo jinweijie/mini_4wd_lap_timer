@@ -10,7 +10,7 @@ button = Button(5)
 counter = -1
 last_lap_start_time = None
 race_result = {}
-sleep_after_detection = 1
+sleep_after_detection = 0.5
 
 def reset():
     global counter
